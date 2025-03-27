@@ -1,29 +1,48 @@
 # Praxis Dr. med. Martin Jütz – Facharzt für Allgemeinmedizin, Berlin
 
-Willkommen auf der offiziellen GitHub Pages-Seite der Praxis Dr. med. Martin Jütz.  
-Diese Website ist vollständig statisch, DSGVO-konform, barrierearm und frei von Cookies oder Trackern.
+Dies ist die offizielle GitHub Pages-Webseite der allgemeinmedizinischen Praxis Dr. med. Martin Jütz. Die Webseite wurde als vollständig statische HTML-Seite umgesetzt und entspricht den datenschutzrechtlichen Anforderungen gemäß Art. 5 und Art. 25 DSGVO (Verordnung (EU) 2016/679). Durch den Verzicht auf Tracking-Tools, Cookies sowie externe Inhalte (z. B. Google Fonts) erfüllt sie wesentliche Kriterien für datensparsame Gestaltung (Voigt & von dem Bussche, 2017, https://doi.org/10.1007/978-3-662-52905-9).
 
-🔗 **Live:** [https://dr-juetz-arzt.github.io/praxis-dr-juetz-website/](https://dr-juetz-arzt.github.io/praxis-dr-juetz-website/)
+Die HTML-Elemente orientieren sich an den Anforderungen der Barrierefreien-Informationstechnik-Verordnung (BITV 2.0) des Bundes (BMAS, 2019). Ein Kontrastverhältnis ≥ 4.5:1 sowie Verzicht auf dynamische Inhalte ohne Alternativtexte wurden technisch umgesetzt.
 
-## Inhalte
+🔗 **Live:** [https://dr-juetz-arzt.github.io/privatarzt-dr-martin-juetz/](https://dr-juetz-arzt.github.io/privatarzt-dr-martin-juetz/)
+
+---
+
+## Projektinhalte
 
 - `index.html`: Startseite mit Praxisinformationen
-- `impressum.html`: Gesetzliches Impressum
-- `datenschutz.html`: Datenschutzerklärung
+- `impressum.html`: Rechtlich verpflichtendes Impressum nach § 5 TMG
+- `datenschutz.html`: DSGVO-konforme Datenschutzerklärung
 - `Cross.png`: Praxislogo
-- `.github/workflows/gh-pages.yml`: Automatisches Deployment via GitHub Actions
-- `README.md`: Projektdokumentation
+- `QR_PraxisWebsite_FINAL.png`: QR-Code zur Website
+- `.github/workflows/gh-pages.yml`: Automatisiertes Deployment via GitHub Actions
+- `README.md`: Diese Dokumentation
 
-## Hosting
+---
 
-Diese Website wird mit GitHub Pages gehostet. Änderungen am `main`-Branch werden automatisch veröffentlicht.
+## Hosting & Datenschutz
+
+Die Website wird über GitHub Pages gehostet. Bei rein statischen HTML-Inhalten erfolgt kein serverseitiges Logging personenbezogener Daten (GitHub, 2023). GitHub Pages speichert keine Cookies, verwendet keine Tracker und stellt Inhalte über HTTPS bereit ([GitHub Docs, 2023](https://docs.github.com/en/pages)).
+
+---
 
 ## QR-Code
 
-Die Website ist über folgenden QR-Code direkt erreichbar:
+![QR-Code zur Praxiswebsite](QR_PraxisWebsite_FINAL.png)
 
-![QR-Code](QR_PraxisWebsite_FINAL.png)
+Scannen Sie den QR-Code, um die Website auf mobilen Endgeräten direkt aufzurufen.
+
+---
 
 ## Lizenz
 
-MIT – frei nutzbar für medizinische Praxis-Websites ohne Gewähr.
+Diese Webseitendateien unterliegen der MIT-Lizenz. Die Nutzung ist für medizinische Einzelpraxen zulässig, erfolgt jedoch **auf eigene rechtliche Verantwortung**, insbesondere hinsichtlich medizinrechtlicher Vorgaben, Impressumspflicht (§ 5 TMG) und Patientenkommunikation (§ 7 HWG). Eine datenschutzrechtliche Prüfung vor Veröffentlichung wird empfohlen (vgl. Albrecht, 2020, https://doi.org/10.1007/978-3-658-29132-4).
+
+---
+
+## Quellen (APA 7)
+
+- Albrecht, J. P. (2020). *Datenschutz-Grundverordnung: DS-GVO – Bundesdatenschutzgesetz: BDSG*. Springer. https://doi.org/10.1007/978-3-658-29132-4  
+- BMAS – Bundesministerium für Arbeit und Soziales. (2019). *Barrierefreie Informationstechnik-Verordnung – BITV 2.0*. https://www.gesetze-im-internet.de/bitv_2_0/  
+- GitHub. (2023). *About GitHub Pages*. https://docs.github.com/en/pages  
+- Voigt, P., & von dem Bussche, A. (2017). *The EU General Data Protection Regulation (GDPR): A Practical Guide*. Springer. https://doi.org/10.1007/978-3-662-52905-9
